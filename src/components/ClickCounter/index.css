@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 38px;
+  font-family: 'roboto';
+  text-align: center;
+  font-weight: 500;
+}
+
+.countNum {
+  color: #c20a72;
+}
+
+.description {
+  font-size: 16px;
+  font-family: 'roboto';
+  text-align: center;
+  color: #2d3a35;
+}
+
+.button {
+  font-size: 12px;
+  font-family: 'roboto';
+  text-align: center;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 3px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    width: 70%;
+  }
+}
